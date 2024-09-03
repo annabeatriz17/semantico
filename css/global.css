@@ -11,23 +11,111 @@ body {
     color: #000000;
 }
 .site-header{
-    background-color: #d6a4ff;
+    background-color: #cb71ff;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
-.site-title{
+
+site-title{
     margin-bottom: 10px;
-    font-size: 2em;
+    font-size: 2rem;
 }
 .main-nav .nav-list{
     list-style: none;
     display: flex;
     justify-content: center;
+    padding:20px;
 }
-header h2 {
-    text-align: center;
+main-nav{
+    margin: 0 15px;
 }
-header p{
+.main-nav .nav-link{
+    color: #6e00ad;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.main-nav .nav-link:hover{
+    color: #fff;
+}
+
+/* Conteudo Principal */
+.main-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.article{
+    flex: 3;
+    background-color: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px #000000;
+    border-radius: 5px;
+}
+.article-header{
+    border-bottom: 2px solid #835fe7;
+    margin-bottom: 15px ;
+    padding-bottom: 10px;
+}
+.article-title{
+    color: #a469e7;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+}
+.article-meta{
+    color: #a469e7;
+    font-size: 0.9em;
+}
+.article-section{
+    margin-bottom: 20px;
+}
+.section-title{
+    font-size: 1.4em;
+    color: #a469e7;
+    margin-bottom: 10px;
+    line-height: 1.0;
+}
+.image-figure{
+    margin-top: 20px 0;
+}
+.article-image{
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.image-caption{
     text-align: center;
+    font-size: 0.10px;
+    color: #000000;
+    margin-top: 5px;
+}
+.sidebar{
+    flex: 1;
+    background-color: #cb71ff;
+    padding: 20px;
+    box-shadow: 0 2px 4px;
+    border-radius: 5px;
+}
+.sidebar-title{
+    font-size: 1.6em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.sidebar-text{
+    color: #000000;
+    line-height: 1.5;
+}
+.site-footer{
+    background-color: #e4bcff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding:10px;
+    margin-top: 20px;
 }
