@@ -119,3 +119,19 @@ main-nav{
     padding:10px;
     margin-top: 20px;
 }
+.contact-info{
+    margin-bottom: 10px;
+}
+.author-name,
+.author-email{
+    color: #e4bcff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.email-link:hover{
+    color: aliceblue;
+}
+.footer-copy{
+    font-size: 0.9em;
+    color: aliceblue;
+}
