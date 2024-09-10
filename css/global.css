@@ -7,12 +7,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
-    background-color: rgb(178, 63, 245);
+    background-color: rgb(255, 255, 255);
     color: #000000;
 }
 .site-header{
     background-color: #cb71ff;
-    color: #fff;
+    color: #000000;
     padding: 1rem 0;
     text-align: center;
 }
@@ -78,7 +78,7 @@ main-nav{
 }
 .section-title{
     font-size: 1.4em;
-    color: #a469e7;
+    color: #000000;
     margin-bottom: 10px;
     line-height: 1.0;
 }
@@ -112,8 +112,9 @@ main-nav{
     color: #000000;
     line-height: 1.5;
 }
+/* Rodapé*/
 .site-footer{
-    background-color: #e4bcff;
+    background-color: #cb71ff;
     color: rgb(0, 0, 0);
     text-align: center;
     padding:10px;
@@ -124,6 +125,9 @@ main-nav{
 }
 .author-name,
 .author-email{
+    margin-bottom: 5px;
+}
+.email-link{
     color: #e4bcff;
     text-decoration: none;
     transition: color 0.3s;
